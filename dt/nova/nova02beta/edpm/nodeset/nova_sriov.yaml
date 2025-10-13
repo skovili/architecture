@@ -53,6 +53,9 @@ metadata:
   name: install-nvidia-mdev
   namespace: openstack
 spec:
+  dataSources:
+    - configMapRef:
+        name: nvidia-mdev-config
   playbookContents: |
     - name: Install Nvidia Driver
       hosts: all
