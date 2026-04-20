@@ -15,6 +15,16 @@ define the stages for each VA/DT including the path to the CR
 kustomization and its values as well as a shell command which may
 be used to validate that the stage is complete.
 
+## Contributing
+
+This project supports **agentic-first development** with AI coding assistants. See:
+
+- **[AGENTS.md](AGENTS.md)** — Essential context for AI assistants and contributors
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — Contribution workflow and AI attribution requirements
+- **[REDHAT.md](REDHAT.md)** — Mandatory AI code assistant policy
+- **[skills/](skills/)** — Reusable personas for specific development tasks
+- **[docs/agentic/](docs/agentic/)** — Agentic SDLC principles and playbook
+
 ## Requirements
 
 The templating provided here requires [kustomize](https://kustomize.io/)
